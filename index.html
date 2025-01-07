@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+         <meta charset="utf-8" />
+        <!-- 
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />-->
+        <title>개발자 김가영의 포트폴리오</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        
+<link rel="stylesheet" type="text/css" href="[CSS FILE PATH">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+
+<style >
+#sidebox{
+	background:#74c4de;
+    
+	border-radius: 50px;
+	
+	position: absolute;
+	width:80px;
+    height:80px;
+	top:650px;
+	right:40px;
+}
+ 
+#sidebox a{
+    display: block;
+    margin: 0;
+    padding: 1.4rem 0.5rem;
+	font-size: 1.2em;
+    color: #fff;	
+}
+a:hover {text-decoration:none;
+}}
+</style>
+
+        
+<style>
+.text-pupple {
+	color: #2e2e2e;
+}
+
+.font-noto {
+	font-family: 'noto sans';
+}
+
+.font-titWeb {
+	font-family: 'Titillium web';
+}
+
+#interests{
+	position:relative;
+	z-index: 1;
+}
+#interests:after {
+	background-image: url('assets/img/fixed.jpg');
+	top: 0;
+	left: 0;
+	position: absolute;
+	background-size: 100%;
+    background-repeat:no-repeat;
+	background-position: center;
+	opacity: 0.3 !important;
+	filter: alpha(opacity = 0.3);
+	z-index: -1;
+	content: "";
+	width: 100%;
+	height: 100%;
+}
+</style>
+
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    
+console.log("up");
+var currentPosition = parseInt($("#sidebox").css("top")); 
+ 
+$(document).ready(function(){ 
+	var currentPosition = parseInt($("#sidebox").css("top")); 
+	$(window).scroll(function() {
+		var position = $(window).scrollTop(); // 현재 스크롤바의 위치값을 반환합니다.
+		$("#sidebox").stop().animate({"top" : position + currentPosition + "px"},200);
+	});
+});
+
+</script>
+
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="sideNav" style="background: #74c4de;">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top"> 
+                <span class="d-block d-lg-none">김가영</span>
+                <!-- 
+                 <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="" /></span>
+                 -->
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav" style="font-family: 'Titillium web'; font-size: 24px; font-weight: semiBold; text-align: left;">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about" style="color: #fff600;"> - About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#curriculum">Curriculum</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certificate">Certificate</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <span class="d-none d-lg-block"><img class="img-fluid img-profile mx-auto mb-2" src="assets/img/NavBottomImg2.jpg" alt="" /></span>
+        </nav>
+        <!-- Page Content-->
+        <div id="sidebox"> 
+			<a href="#about">&nbsp;▲TOP</a> </br>
+		</div>        
+        
+        <div class="container-fluid p-0">
+            <!-- About-->
+         
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                  
+ 					<img class="img-fluid img-profile rounded-circle mx-auto mb-1" src="assets/img/profile.jpg" alt="" style="width:240px; height: 240px;"/>
+                     <h1 class="mb-0" style="font-family: 'Titillium web'; font-size: 100px; font-weight : bold;">
+                        	GA YEONG
+                        <span class="text-pupple" style="font-family: 'Titillium web'; font-size: 100px; font-weight : bold; ">KIM🍀</span>
+                    </h1> 
+                    <div class="subheading mb-5" style="font-family: 'Titillium web'; font-size: 18px; font-weight : light; margin: 30px 0 50px 0;">
+                        	<span>📱TEL. <b class="text-pupple">010-9243-8237&nbsp;&nbsp;</b>|</span>&nbsp;&nbsp;
+                        	<span>✉️E-mail. <b class="text-pupple"><a class="text-pupple" >ty5924@naver.com</a>&nbsp;&nbsp;</b>|</span>&nbsp;&nbsp;
+                        	<span>🏠Address. <b class="text-pupple"> Seo-gu, Gwangju</b></span>
+                    </div>
+                    
+                    <p style="font-family: 'noto sans'; font-size: 17px; font-weight : Regular; margin: 0 0 40px 0;">
+                                   안녕하세요, 신입개발자 김가영입니다. <br/>
+                                   <b>더 폭넓은 개발 지식과 실력</b>을 쌓고 발휘할 수 있기를 원합니다.<br/></p>
+                    <div class="social-icons">
+                        <!-- <a class="social-icon" href="https://u-it.tistory.com/" target="_blank"><i class="fas"></i></a> -->
+                        <a style="width:44px; height: 44px;" class="social-icon" href="https://github.com/YooHyeok" target="_blank"><i class="fab fa-github"></i></a>
+                        <!-- <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a> -->
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5 font-noto" >학력사항</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0 font-titWeb">Gwangju UNIVERSITY</h3>
+                            <div class="subheading mb-3 font-noto">문예창작과</div>
+                            <p>졸업</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-pupple font-titWeb">2015.03 - 2020.02</span></div>
+                    </div>
+                    
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0 font-titWeb">yeongdong High School</h3>
+                            <div class="subheading mb-3 font-noto">인문계열 문과</div>
+                            <p>졸업</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-pupple font-titWeb">2012.03 - 2015.02</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="curriculum">
+                <div class="resume-section-content">
+                    <h2 class="mb-5 font-noto">교육이수</h2>
+                    
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h4 class="mb-1 font-noto">고용노동부 국비 훈련 과정</h4>
+                            <div class="subheading font-noto">스마트 기기 UXUI디자인 양성과정</div><span class="text-pupple font-titWeb"> 2020.03.12 - 2020.07.17</span>
+                            </div>
+                        
+                        <div class="flex-shrink-0"><span class="text-pupple font-titWeb"></span></div>
+                    </div> <br>
+                    <div class="subheading mb-3 font-noto">- 교육 세부 내용</div>
+                    <ul class="fa-ul mb-0 font-noto">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+							2D, 3D 그래픽 제작
+                        </li> 
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+							UXUI 
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            페이지 레이아웃 구성
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            프로그래밍 언어: HTML, JQUERY, CSS 
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            반응형 웹 구현
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            미니 프로젝트(개인 페이지 제작)
+                        </li>
+                        
+                    </ul>
+                </p>
+                <a class="text-primary" a href="home/index.html" target="_blank" style="font-size:19px;"><b>➡️ 페이지 보러가기</b> (PC에서 확인 가능)</a>
+            
+                    
+            </section>
+            <hr class="m-0" />
+            <section class="resume-section" id="Experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5 font-noto">경력사항</h2>
+
+                    <h3 class="mb-5 font-titWeb text-pupple">애드앤애드<span style="font-size:18.5px; color:#98a2aa "> 2022.04. - 2024.12.</span>
+                        <br/>
+                        <span class="font-titWeb " style="font-size:22px;" ><b>광고 랜딩 페이지 제작 및 관리 </b></span><br/> </p>
+                        <a class="text-primary" a href="easy/index.php" target="_blank" style="font-size:19px;"><b>➡️ 페이지1 보러가기</b></a> </br>
+                        <a class="text-primary" a href="happy/index.php" target="_blank" style="font-size:19px;"><b>➡️ 페이지2 보러가기</b></a></br>
+                        <a class="text-primary" a href="site01/index.php" target="_blank" style="font-size:19px;"><b>➡️ 페이지3 보러가기</b></a> 
+                    </h3> 
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <b>■ Skill</b>
+                            <p>Java / JavaScript / css / html5 / php </p>
+                        </div>
+                        
+                        <div class="flex-shrink-0"><span class="text-pupple font-titWeb"></span></div>
+                    </div>
+                    <br>
+                    <!-- <h3 class="mb-5 font-titWeb text-pupple">노무사사무소 연세<span style="font-size:25px; color:gray;"> 2020.09. - 2021.12. </span>
+                        <br/>
+                        <span class="font-titWeb text-primary" ><b>회사 홈페이지 제작 (중지)</b></span>
+                        <a class="text-primary" a href="page/index.html" target="_blank"><b>&nbsp;&nbsp;&nbsp;&nbsp;➡️ 링크</b></a>
+                    </h3> --> 
+                    
+                </div>
+               
+                           
+            </section>
+            <hr class="m-0" />
+            <!-- certificate-->
+            <section class="resume-section" id="certificate">
+                <div class="resume-section-content">
+                    <h2 class="mb-5 font-noto" >기술 자격증</h2>
+		        
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0 font-titWeb" style="color:darkblue; cursor:pointer;" onclick="window.open('assets/img/0618.png','asdfo8or','scrollbars=yes,width=700,height=585,top=10,left=20');">정보 처리 기사</h3>     
+                            
+                                                 
+                        <p>한국산업인력공단(2024.06.)</p>
+                        </div>
+                    </div>
+                    <p>|</p>
+                    <br>
+                    <h2 class="mb-5 font-noto" >기타 자격증</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0 font-titWeb">자동차운전면허증 2종 보통</h3>                            
+                        <p>전남지방경찰청(2018.04.)</p>
+                        </div>
+                      
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0 font-titWeb">한국사능력검정시험 1급</h3>                            
+                        <p>국사편찬위원회(2019.11.)</p>
+                        </div>
+                      
+                    </div>
+
+
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Curriculum-->
+            
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5 font-titWeb">Skills</h2>
+                    <div>
+                    <img src="https://img.shields.io/badge/Html-E34F26?style=flat-square&logo=Html5&logoColor=white"                      style="zoom:150%; float: left"/>
+                    <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white"                        style="zoom:150%; float: left"/>
+                    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"           style="zoom:150%; float: left"/>
+                    <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jQuery&logoColor=white"                   style="zoom:150%; float: left"/>
+                    <img src="https://img.shields.io/badge/Java 8-007396?style=flat-square&logo=Java&logoColor=white"                     style="zoom:150%; float: left"/>
+                    <img src="https://img.shields.io/badge/Java 11-007396?style=flat-square&logo=Java&logoColor=white"                    style="zoom:150%; float: left"/>
+                    <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"                     style="zoom:150%; float: left"/>
+                    <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"                         style="zoom:150%; float: left"/>
+                </div>
+                    <br/><br/><br/><br/>
+                    <div class="subheading mb-3 font-titWeb">[ Language ]</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+							JAVA<br/>
+							- 자바 문법 습득<br/>
+							- 이벤트의 개념과 이벤트 처리 방식 이해<br/>
+                        </li>
+                        
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            CSS3<br/>
+                             - UI 설계 및 기본 문법 습득
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            JavaScript <br/>
+                            - 자바스크립트 기본 문법 습득<br/>
+							- JQuery 문법 습득
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                             HTML5
+                             
+                        </li>
+                    </ul>
+                    <div class="subheading mb-3"></div>
+                    <div class="subheading mb-3 font-titWeb">[ DBMS ]</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                   			MySQL<br/>
+                   			 - 기본 SQL 작성 <br/>
+                        </li>
+                    </ul>
+                    
+                    
+                  
+                    
+                </div>
+            </section>
+               
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+			<div class="resume-section-content">
+				<div style="height:600px;">
+				<div style="background-color: rgba( 255, 255, 255, 0.5 ); width:120%;  margin-left:-50px;" >&nbsp;<br>
+				<h2 class="mb-5 font-titWeb" style="margin-left:50px;">Interests</h2>
+				<!-- <span class="d-none d-lg-block"><img class="img-fluid img-profile mx-auto mb-2" src="assets/img/fixed.jpg" style="opacity:0.1;"/></span>
+				 -->
+				
+				<p class="font-noto" style=" margin-left:50px; ">웹 개발자가 되는 것 외에 <b>산책이나 등산처럼</b> 쉼 없이 걷는 것을 좋아하며, 이를 통해해 스트레스를 해소하곤 합니다.<br>
+				여가 시간에는 <b>역사 공부를 틈틈이 </b>하고, <b>웹 개발 세계를 이해하기 위해 </b>개발자 실무 관련 유튜브 영상을 시청합니다.<br>&nbsp; </p>
+				</div>
+				
+<!--  				>
+ -->			
+				</div>
+			</div>
+		</section>
+            <hr class="m-0" />
+            <section class="resume-section" id="contact">
+                <div class="resume-section-content">
+                    <h2 class="mb-1 font-titWeb" >Contact Me </h2><h5 class="font-noto">(준비중)</h5>
+                 <!--   <h4 class="mb-5"> <a class="text-pupple font-titWeb" href="mailto:ty5924@naver.com">ty5924@naver.com</a> ☜</h4> -->
+                    
+                    
+                    <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Name</label>
+                                    <input class="form-control" name="name" id="name" type="text"  placeholder="Name" required="required" data-validation-required-message="Please enter your name." />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Phone Number</label>
+                                    <input class="form-control" name="phone" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number." />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Email Address</label>
+                                    <input class="form-control" name="from" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address." />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Subject</label>
+                                    <input class="form-control" name="subject" id="phone" type="text" placeholder="Subject" required="required" data-validation-required-message="Please enter Subject." />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Message</label>
+                                    <textarea class="form-control" name="content" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <br />
+                            <div id="success"></div>
+                            <div class="form-group"><button style="background-color: #74c4de; color: white; border: 1px solid #74c4de;" class="btn btn-primary" id="sendMessageButton" type="submit">Send</button></div>
+                        </form> 
+                </div>
+            </section>
+            
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+    <script language="javascript">
+        function new(){
+         window.open("test.asp","new", 
+        "width=300, height=200, left=30, top=30, 
+        scrollbars=no,titlebar=no,status=no,resizable=no,fullscreen=no");
+        }
+        </script>
+        
+</html>
